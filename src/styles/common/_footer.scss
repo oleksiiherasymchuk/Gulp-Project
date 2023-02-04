@@ -1,0 +1,93 @@
+.footer {
+    width: 1440px;
+    height: 224px;
+    margin: 35px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    &Grid {
+        display: grid;
+        grid-template-columns: 205px 153px 228px 198px;
+        grid-template-rows: 200px;
+        column-gap: 85px;
+
+        .footerTitle {
+            width: 119px;
+            height: 20px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FF4E50;
+            text-transform: uppercase;
+            padding-left: 49px;
+        }
+
+        .footerCompany {
+            width: 70px;
+            height: 17px;
+            @extend .monserratFont;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #444444;
+            padding-top: 2px;
+
+            &Article {
+                width: 70px;
+                height: 17px;
+                @extend .monserratFont;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                color: #444444;
+                margin-bottom: 11px;
+            }
+
+            &Items {
+                width: 114px;
+                height: 156px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 26px;
+                color: #999999;
+
+            }
+        }
+
+        .footerPartners {
+            width: 64px;
+            height: 17px;
+            @extend .monserratFont;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #444444;
+            padding-top: 2px;
+        }
+    }
+
+    &Logo {
+        &Article {
+            width: 83px;
+            height: 12px;
+            @extend .monserratFont;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 1px;
+            color: #CCCCCC;
+            padding-left: 70px;
+            padding-top: 2px;
+        }
+
+        img {
+            padding-top: 7px;
+            padding-left: 38px;
+        }
+    }
+}

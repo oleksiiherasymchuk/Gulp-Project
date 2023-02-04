@@ -1,0 +1,71 @@
+.header {
+    width: 1440px;
+    height: 700px;
+    background-image: url(../images/Background.png);
+
+    &Top {
+        padding-top: 40px;
+        padding-left: 249px;
+
+
+        .dreamshare {
+            @extend .monserratFont;
+            text-transform: uppercase;
+        }
+
+        .login {
+            @extend .monserratFont;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            padding-left: 594px;
+        }
+
+        .signup {
+            @extend .monserratFont;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            border: 2px solid #FFFFFF;
+            border-radius: 40px;
+            color: #FFFFFF;
+            margin-left: 17px;
+            width: 88px;
+            height: 35px;
+            background-color: transparent;
+        }
+    }
+
+    h1 {
+        width: 470px;
+        height: 7px;
+        @extend .monserratFont;
+        font-size: 52px;
+        line-height: 63px;
+        text-align: center;
+        margin: 148px auto;
+        text-transform: uppercase;
+
+    }
+
+    &Description {
+        width: 396px;
+        height: 25px;
+        @extend .robotoFont;
+        margin: 0 auto;
+
+    }
+
+    &Find {
+        width: 225px;
+        height: 40px;
+        background: #FF4E50;
+        border-radius: 40px;
+        margin: 33px 610px;
+        @extend .monserratFont;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+}
